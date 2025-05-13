@@ -1,4 +1,4 @@
-FROM python:3.10.12 as base
+FROM python:3.12.10 as base
 
 
 ENV ACCEPTANCE_TEST_DOCKER_CONTAINER 1
