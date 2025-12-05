@@ -1,5 +1,5 @@
 # Use a base image with PostgreSQL client
-FROM python:3.9
+FROM python:3.14.1
 
 RUN apt-get update && apt-get install -y \
     libpq-dev \
