@@ -1,5 +1,5 @@
 # Use a base image with MySQL client
-FROM python:3.9
+FROM python:3.13.11
 
 WORKDIR /usr/src/app
 
